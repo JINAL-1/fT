@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*General styling*/
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+ 
+header{
+	background-image: url("img.jpg");
+	background-position: center;
+	height:650px;
+	background-size: cover;
+  	position: relative;
+	background-repeat: no-repeat;
+	margin: 3px;
+}
+
+header>h1,
+h2{
+	color:#0F0707;
+	text-align: center;
+	padding: 50px;
+}
+
+h2,
+h3{
+	font-family: 'Open Sans';
+}
+
+h3{
+	color: #3567B5;
+	font-family: 'Caveat Brush';
+	font-size: 38px;
+	text-decoration: underline;
+	text-decoration-color: brown;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+
+section{
+	padding: 25px ;
+}
+
+/* Table Styles */ 
+
+table{
+	table-layout: fixed;
+	width: 100%;
+	border:3px solid  #262CB1;
+	border-collapse: collapse;
+	padding: 15px;
+}
+
+thead{
+	padding: 10px;
+	color: cornflowerblue;
+	font-size: 18px;
+	font-family: "Lucida Grande";
+	background-color: cornsilk;
+	box-sizing: border-box;
+	border-bottom: 5px thin #3353F0;
+}
+
+caption{
+	padding: 15px;
+	color: #3567B5;
+	font-family: 'Caveat Brush';
+	font-size: 38px;
+	text-decoration: underline;
+	text-decoration-color: brown;
+}
+
+th,
+td{
+	padding: 20px;
+}
+
+
+tr:nth-child(even){
+	background-color: beige;
+	}
+
+tbody:hover{
+	background-color:lightcyan;
+}
+
+/*Form styling*/
+
+
+textarea{
+	overflow: auto;
+}
+
+form{
+	margin: 10px;
+}
+
+fieldset{
+	border: none;
+	padding: 20px;
+	margin: 10px;
+	}
+
+legend{
+	width: 100%;
+	font-size: 1.4em;
+	color: blueviolet;
+	font-family:"Lucida Sans Unicode";
+	
+}
+
+input,
+select{
+	width: 100%;
+	padding: 10px;
+	color: hotpink;
+	font-size: 15px;
+	font-family: "Hoefler Text";
+	outline: 0;
+	background-color:azure;
+	border-radius:5px;
+	border: none;
+	box-shadow: 1px 3px 1px rgb(23,54,156) inset;
+}
+
+label{
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+input[type="submit"]{
+	position: relative;
+	padding:15px;
+	color:blueviolet;
+	background-color:whitesmoke;
+	font-weight: 600;
+	text-align: center;
+	border: 1px solid #E20E12;
+	border-width: 1px 1px 3px;
+	margin: 20px 0;
+	box-shadow: 0 1px 0 rgb(23,54,156) inset;
+}
